@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+<div class="page">
+
+    <div class="main">
+        <div class="top-row px-4">
+            <button id="NavButtonTrue" @onclick="() => NavigationManager.NavigateTo(_counter, true)">Navigate with True</button>
+        </div>
+
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>
+@code {
+    private string _home = "/";
+    private string _counter = "Counter";
+}
