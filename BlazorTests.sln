@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorTests", "BlazorTests\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorTests.E2ETests", "BlazorTests.E2ETests\BlazorTests.E2ETests.csproj", "{EFA14ABA-0953-4575-B54D-007AD149ACA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTests.E2ETests.NUnit", "BlazorTests.E2ETests.NUnit\BlazorTests.E2ETests.NUnit.csproj", "{C906DF7D-5875-4033-9454-6AF84EDC70AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EFA14ABA-0953-4575-B54D-007AD149ACA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA14ABA-0953-4575-B54D-007AD149ACA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA14ABA-0953-4575-B54D-007AD149ACA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C906DF7D-5875-4033-9454-6AF84EDC70AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C906DF7D-5875-4033-9454-6AF84EDC70AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C906DF7D-5875-4033-9454-6AF84EDC70AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C906DF7D-5875-4033-9454-6AF84EDC70AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
